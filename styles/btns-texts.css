@@ -1,0 +1,72 @@
+
+
+h1.section__content__title{
+
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+h2.section__content__subtitle{
+
+    font-size: 1.6rem;
+    font-weight: 500;
+
+}
+
+
+a:hover{
+    cursor: pointer;
+}
+
+.section__content__subtitle-a{
+    
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+
+    
+}
+
+.section__content__subtitle-a:hover{
+    
+    /* cursor: pointer; */
+    text-decoration-thickness: 2px;
+
+    
+}
+
+
+.section__action__container_btn{
+
+    color: white;
+    font-size: 1.2rem;
+    padding: 1.4rem 0;
+    text-transform: uppercase;
+    margin: .8rem 0;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    min-width: 80%;
+    font-weight: 600;
+    
+}
+
+
+.action__btn__primary{
+    
+    background-color: var(--black-600);
+
+
+
+}
+
+.action__btn__secondary{
+    
+    background-color: var(--white-800);
+    color: var(--black-1000);
+
+}
+
+.img__tesla_logo{
+    width: 30vw;
+}

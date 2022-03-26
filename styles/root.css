@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Mohave:wght@700&family=Montserrat:wght@100;200;300;400;500;600;700&family=Nothing+You+Could+Do&display=swap');
+
+
+html{
+    
+    font-size: 62.5%;
+
+    --white-800: rgb(236, 236, 236);
+
+    --black-1000:  rgb(0, 0, 0);
+    --black-600: rgb(53, 53, 53);
+
+}
+
+body{
+    
+    font-family: 'Montserrat', Tahoma, Helvetica, Verdana;
+    box-sizing: border-box;
+
+}
+

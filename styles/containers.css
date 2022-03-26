@@ -1,0 +1,82 @@
+body{
+    color: var(--black-1000)
+}
+
+
+header{
+
+    position: fixed;
+    max-height: 80px;
+    background-color: rgba(rgb(194, 194, 194),.5);
+    z-index: 1;
+    padding: 1rem 2rem;
+    width: 100%;
+
+}
+
+.section{
+
+    min-width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.section__content{
+    
+    position: relative;
+    top: 15vh;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+}
+
+.section__action__container{
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 67vh;
+    width: 100%;
+    text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.section.one{
+
+    background-image: url(../assets/1.avif)
+}
+
+.section.two{
+
+    background-image: url(../assets/2.avif)
+}
+
+.section.three{
+    
+    background-image: url(../assets/3.avif)
+}
+
+.section.four{
+    
+    background-image: url(../assets/4.avif)
+}
+.section.five{
+    
+    background-image: url(../assets/5.avif)
+}
+
+.section.six{
+    
+    background-image: url(../assets/6.avif)
+}
+.section.seven{
+    
+    background-image: url(../assets/7.avif)
+}
