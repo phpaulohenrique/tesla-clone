@@ -1,3 +1,9 @@
+#fullpage.no-scroll{
+
+    overflow-y: hidden;
+    max-height: 100vh;
+}
+
 body{
     color: var(--black-1000)
 }
@@ -72,9 +78,9 @@ header.header{
 
 nav.navigation{
 
+    background-color: rgb(219, 219, 219);
     width: 80%;
     max-width: 35rem;
-    background-color: rgb(228, 228, 228);
     padding: 0;
     top: 0;
     right: 0;
