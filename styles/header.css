@@ -1,0 +1,66 @@
+.header__logo{
+
+    width: 13rem;
+    height: 100%;
+    
+}
+
+header.header{
+
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    height: 5rem;
+    background-color: rgba(rgb(65, 20, 20));
+    z-index: 5;
+    padding: 2rem;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header_left{
+
+    display: block;
+	overflow: hidden;
+
+}
+
+.header__middle{
+    display: flex;
+    align-items: center;
+}
+
+.header__right{
+
+    margin: auto 0;
+	margin-right: 1rem;
+
+}
+
+.header__nav__btn{
+
+    display: none;
+	font-size: 1.6rem;
+	font-weight: bold;
+	padding: 1rem;
+	color: var(--black-600);
+	border-radius: 1.5rem;
+	text-transform: capitalize;
+	transition: background 0.3s linear;
+
+}
+
+.header__nav_btn:hover{
+
+    background: #0000001c;
+}
+
+.header__nav__btn.menu__btn {
+	display: inline-block;
+}
+
+.header__nav__btn {
+
+	margin-right: 2rem;
+}
