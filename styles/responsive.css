@@ -1,0 +1,85 @@
+
+/* SCREEANS */
+
+/* small=600 */
+/* medium=900 */
+/* large=1200 */
+/* extralarge=1600 */
+
+
+@media screen and (min-width: 600px) {
+    
+    .section__action__container_btn  {
+		max-width: 20rem;
+		padding: 1.5rem;
+		flex-basis: 40%;
+	}
+
+	.section__action__container {
+
+		justify-content: space-evenly;
+	
+    }
+}
+
+
+@media screen and (min-width:900px){
+
+    .section__action__container  {
+		width: 70%;
+	}
+
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    .section__action__container{
+        top: 77vh;
+    }
+
+
+    .section__action__container_btn  {
+
+        max-width: 25rem;
+	}
+
+	.header__nav__btn {
+
+		display: block;
+	}
+
+	.header__left {
+
+		padding: 0;
+		margin: 0 1.5rem;
+	}
+
+	.header__right {
+
+		margin: .7rem 1.5rem;
+	}
+
+	.link__in__middle {
+
+		display: none;
+	}
+
+	.section__action__container {
+
+		width: 60%;
+	}
+}
+
+@media screen and (min-width: 1600px) {
+
+	.section__action__container {
+
+		width: 60%;
+	}
+
+    .section__action__container_btn  {
+
+        max-width: 35rem;
+	}
+}

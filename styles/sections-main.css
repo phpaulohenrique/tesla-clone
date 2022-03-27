@@ -19,6 +19,7 @@ h2.section__content__subtitle{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
 
 }
 
@@ -34,7 +35,7 @@ h2.section__content__subtitle{
 
 .section__action__container{
 
-    position: relative;
+    position: absolute;
     left: 50%;
     transform: translateX(-50%);
     top: 67vh;
@@ -73,7 +74,7 @@ h2.section__content__subtitle{
     margin: .8rem 0;
     border-radius: 25px;
     letter-spacing: 2px;
-    min-width: 80%;
+    flex-basis: 80%;
     font-weight: 500;
     
 }

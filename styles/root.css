@@ -15,5 +15,6 @@ body{
     
     font-family: 'Montserrat', Tahoma, Helvetica, Verdana;
     box-sizing: border-box;
+    position: relative;
 
 }

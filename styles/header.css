@@ -51,12 +51,15 @@ header.header{
 
 }
 
-.header__nav_btn:hover{
+.header__nav__btn:hover{
 
-    background: #0000001c;
+    background: rgb(199, 199, 199);
+
+
 }
 
 .header__nav__btn.menu__btn {
+    
 	display: inline-block;
 }
 
