@@ -2,12 +2,13 @@
 
 Tesla Clone 🚗
 
-language: pt-br
+Responsive ✅
 
+language: pt-br
 
 Project made in VanillaJS.
 
 <hr>
+hosted on netlify.
 
-hosted on netlify.<br>
-link site: https://teslaclone-ph.netlify.app/
+link site: https://teslaclone-ph.netlify.app
