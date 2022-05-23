@@ -2,7 +2,7 @@
 
 Tesla Clone 🚗
 
-* Responsive ✅
+* Responsive📲🖥✅
 
 * Project made in VanillaJS (JavaScript, HTML & CSS)
 
